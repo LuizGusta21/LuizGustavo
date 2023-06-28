@@ -8,10 +8,15 @@
 .projects
   height: 50rem
   width: 100%
+  @include mixins.desktop
+    height: 45rem
 
 .swiper
   height: 50%
   width: 75%
+
+  @include mixins.desktop
+    width: 100%
 
   @include mixins.mobile
     width: 100%
