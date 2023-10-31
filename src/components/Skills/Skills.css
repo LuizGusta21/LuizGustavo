@@ -1,0 +1,32 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: .8rem 1.2rem;
+  gap: 1rem;
+  background: rgba(180, 180, 180, .2);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform .4s;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+.skill__icon {
+  font-size: 5rem;
+}
+
+.skill__name {
+  font-size: 2rem;
+  color: #222;
+  font-weight: 700;
+
+}

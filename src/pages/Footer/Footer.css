@@ -1,0 +1,62 @@
+.main_footer {
+  background: #000;
+  color: #fff;
+}
+
+.main_footer_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 0;
+}
+
+.title_name {
+  width: 40%;
+  max-width: 50rem;
+}
+
+.name {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 2rem;
+  color: #ddd;
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+.main_footer_rodape {
+  padding: 4rem 0;
+  border-top: 1px solid #444;
+  color: #eee;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.main_footer_rodape a {
+  color: #eee;
+  font-size: 1.4rem;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-left: 2px;
+}
+
+/* responsivo */
+
+@media screen and (max-width: 480px) {
+  .main_footer_top {
+    display: block;
+  }
+
+  .title_name {
+    order: 2;
+    margin-bottom: 4rem;
+    width: 100%;
+
+
+  }
+}

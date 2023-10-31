@@ -1,0 +1,43 @@
+.contact_form_field {
+  margin-bottom: 4rem;
+}
+
+.contact_form_label {
+  display: block;
+  color: #666;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact_form_input {
+  padding: 2rem;
+  color: #333;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #f0f0f0;
+}
+
+.contact_form_input:focus {
+  border: 1px solid #dbdbdb;
+
+}
+
+.contact_form_input:hover {
+  border: 1px solid #dbdbdb;
+}
+
+.contact_form_input::placeholder {
+  color: #999;
+  font-size: 1.6rem;
+}
+
+.Toastify__toast-body>div:last-child {
+  font-size: 1.3rem;
+}

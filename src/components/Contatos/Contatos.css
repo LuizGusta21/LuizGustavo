@@ -1,0 +1,30 @@
+.social-networks {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
+  padding: .3rem;
+  display: grid;
+  grid-row: 3;
+  gap: .4rem;
+}
+
+.social-btn {
+  padding: .8rem;
+  width: 100%;
+  font-size: 2.8rem;
+  transition: background-color .2s ease-in-out;
+}
+
+.social-btn:hover {
+  background-color: rgba(100, 100, 111, .2);
+}
+
+@media screen and (max-width: 768px) {
+  .social-networks {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+}
